@@ -1,0 +1,44 @@
+{
+  "Data_Paths": {
+    "nodes_csv": "E:/code/pythonProject1/bus_optimization/data/Nodes.csv",
+    "edges_csv": "E:/code/pythonProject1/bus_optimization/data/Edges.csv",
+    "lines_json": "E:/code/pythonProject1/bus_optimization/data/Candidate_Lines_Pool.json",
+    "od_base_csv": "E:/code/pythonProject1/bus_optimization/data/OD_Matrix_Base.csv",
+     "taz_csv": "E:/code/pythonProject1/bus_optimization/data/TAZ_Raw.csv",
+    "output_freq_json": "E:/code/pythonProject1/bus_optimization/data/Baseline_Lines_With_Freq.json",
+    "output_dir": "E:/code/pythonProject1/bus_optimization/results/"
+  },
+  "Algorithm_Settings": {
+    "pop_size": 100,
+    "max_gen": 100,
+    "crossover_rate": 0.9,
+    "mutation_rate": 0.1,
+    "n_offsprings": 100
+  },
+  "Network_Constraints": {
+    "num_bus_lines": 15,
+    "min_stops_per_line": 5,
+    "max_stops_per_line": 45,
+    "min_frequency": 0,
+    "max_frequency": 20,
+    "max_detour_factor": 1.6,
+    "vehicle_capacity": 80.0,
+    "max_load_factor": 1.50,
+    "default_init_freq": 4.0
+  },
+  "Scenario_Parameters": {
+    "catchment_time_min": 45.0,
+    "min_demand_coverage": 0.95,
+    "transfer_penalty_beta": 0.005,
+    "slope_penalty_alpha": 0.05,
+    "walk_speed_mps": 72,
+    "rail_speed_kph": 80.0
+  },
+  "Economic_Weights": {
+    "value_of_time_min": 0.5,
+    "fixed_cost_per_bus": 120,
+    "operating_cost_per_km": 0.18,
+    "z3_omega1": 0.6,
+    "z3_omega2": 0.4
+  }
+}

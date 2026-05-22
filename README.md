@@ -40,6 +40,7 @@ The repository provides a spatially explicit multi-objective optimization model 
     └── problem.py         # Chromosome encoding and decoding logic
 
 ## 🚀 Getting Started
+
 1. Installation
 Clone this repository and install the required dependencies:
 git clone https://github.com/xycade/Mountain-Transit-Optimization.git
@@ -66,8 +67,10 @@ To plot the Hub Topological Fingerprints (Figure 9):
 python scripts/fgi9.py
 
 ## 📝 Citation
+
 If you find this research or codebase useful, please cite our paper:
 (Insert your paper's citation information here once published)
 
 ## ⚖️ License
+
 This project is licensed under the MIT License - see the LICENSE file for details.

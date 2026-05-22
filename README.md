@@ -38,3 +38,36 @@ The repository provides a spatially explicit multi-objective optimization model 
     ├── candidates.py      # Spatial search for detours and truncations
     ├── evaluator.py       # Multi-objective fitness calculations
     └── problem.py         # Chromosome encoding and decoding logic
+
+## 🚀 Getting Started
+1. Installation
+Clone this repository and install the required dependencies:
+git clone https://github.com/xycade/Mountain-Transit-Optimization.git
+cd Mountain-Transit-Optimization
+pip install -r requirements.txt
+
+2. Pre-processing & Path Generation
+Run the spatial candidate generator to produce the topography-aware candidate route pool:
+python main_init.py
+This script reads the raw GIS network from the data/ directory and outputs data/Candidate_Pool.json.
+
+3. Optimization
+Execute the parallelized evolutionary engine to search the spatiotemporal decision space:
+python main_optimize.py
+This script utilizes joblib for parallel evaluations across multiple CPU cores. The complete Pareto set and the four isolated policy scenarios (SP, CA, HS, BD) will be saved in the results/ folder.
+
+4. Reproducing Paper Figures
+You can directly replicate the core visualization plots in our paper using the pre-computed results provided in this repository:
+To plot the 3D Pareto-optimal Front (Figure 5):
+python scripts/fig5.py
+To plot the Multidimensional Performance Heatmap & Strategy Attribution (Figure 6):
+python scripts/fig6.py
+To plot the Hub Topological Fingerprints (Figure 9):
+python scripts/fgi9.py
+
+## 📝 Citation
+If you find this research or codebase useful, please cite our paper:
+(Insert your paper's citation information here once published)
+
+## ⚖️ License
+This project is licensed under the MIT License - see the LICENSE file for details.

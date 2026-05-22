@@ -38,6 +38,7 @@ The repository provides a spatially explicit multi-objective optimization model 
     ├── candidates.py      # Spatial search for detours and truncations
     ├── evaluator.py       # Multi-objective fitness calculations
     └── problem.py         # Chromosome encoding and decoding logic
+```
 
 ## 🚀 Getting Started
 

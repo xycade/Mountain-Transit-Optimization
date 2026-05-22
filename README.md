@@ -70,7 +70,7 @@ python scripts/fgi9.py
 ## 📝 Citation
 
 If you find this research or codebase useful, please cite our paper:
-(Insert your paper's citation information here once published)
+(Enhancing Bus-Rail Synergy in Mountainous Cities: A Spatial Multi-Objective Optimization Framework for Transit Network Reconfiguration)
 
 ## ⚖️ License
 

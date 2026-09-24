@@ -77,8 +77,7 @@ If you find this research or codebase useful, please cite our paper:
   author={[Yucheng Xu], [Hang Zhao], [Lingya Zhang] and [Yixuan Feng]},
   journal={Computers, Environment and Urban Systems},
   note={Under review},
-  year={2026}
-}
+  year={2026}}
 
 ## ⚖️ License
 

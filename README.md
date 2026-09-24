@@ -1,6 +1,8 @@
 # Enhancing Bus-Rail Synergy in Mountainous Cities
 
-This repository contains the official Python implementation for the paper: **"Enhancing Bus-Rail Synergy in Mountainous Cities: A Spatial Multi-Objective Optimization Framework for Transit Network Reconfiguration"**.
+![Optimization Framework](https://via.placeholder.com/1000x400?text=Please+Upload+Your+Figure+4+Here+And+Replace+This+Link)
+
+This repository contains the official Python implementation for the paper: **"Enhancing Bus–Rail Synergy in Mountainous Cities: A Geography-Aware Multi-Objective Optimization Framework for Transit Network Reconfiguration"** *(Currently under review in Computers, Environment and Urban Systems)*.
 
 The repository provides a spatially explicit multi-objective optimization model designed to structurally reconfigure legacy surface bus networks under severe topographical constraints, promoting synergy with high-capacity rail transit.
 
@@ -30,9 +32,9 @@ The repository provides a spatially explicit multi-objective optimization model 
 │   ├── Optimized_Lines_High_Synergy_HS.json
 │   └── Optimized_Lines_Service_Priority_SP.json
 ├── scripts/               # Publication figure replication scripts
-│   ├── Plot_Pareto_3D.py  # Generates the 3D Pareto Front (Figure 5)
-│   ├── Plot_Multidimensional_Attribution.py  # Generates heatmaps and bar charts (Figure 6)
-│   └── Plot_Hub_Topology_Evolution.py  # Generates topological fingerprints (Figure 9)
+│   ├── fig5.py  # Generates the 3D Pareto Front (Figure 5)
+│   ├── fig6.py  # Generates heatmaps and bar charts (Figure 6)
+│   └── fig9.py  # Generates topological fingerprints (Figure 9)
 └── src/                   # Core computational modules
     ├── engine.py          # Super-network construction and topography logic
     ├── candidates.py      # Spatial search for detours and truncations
@@ -43,7 +45,7 @@ The repository provides a spatially explicit multi-objective optimization model 
 ## 🚀 Getting Started
 
 1. Installation
-Clone this repository and install the required dependencies:
+Clone this repository and install the required dependencies (Python 3.8+ recommended):
 git clone https://github.com/xycade/Mountain-Transit-Optimization.git
 cd Mountain-Transit-Optimization
 pip install -r requirements.txt
@@ -70,7 +72,13 @@ python scripts/fgi9.py
 ## 📝 Citation
 
 If you find this research or codebase useful, please cite our paper:
-(Enhancing Bus-Rail Synergy in Mountainous Cities: A Spatial Multi-Objective Optimization Framework for Transit Network Reconfiguration)
+@article{MountainTransit2026,
+  title={Enhancing Bus--Rail Synergy in Mountainous Cities: A Geography-Aware Multi-Objective Optimization Framework for Transit Network Reconfiguration},
+  author={[Yucheng Xu], [Hang Zhao], [Lingya Zhang] and [Yixuan Feng]},
+  journal={Computers, Environment and Urban Systems},
+  note={Under review},
+  year={2026}
+}
 
 ## ⚖️ License
 
